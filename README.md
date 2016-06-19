@@ -17,6 +17,10 @@ Add the following to your Podfile:
 
 	pod 'EasyDropDownMenu'
 	
+
+### ScreenShot
+![image](https://github.com/stubbornnessness/EasyDropDownMenu/EasyDropDownMenuTest/EasyDropDownMenuTest/test.gif)
+
 ## Version
 **V0.0.1** ---- 2016-6-19
 

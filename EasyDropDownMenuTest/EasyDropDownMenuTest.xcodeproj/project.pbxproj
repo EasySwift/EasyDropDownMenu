@@ -13,6 +13,7 @@
 		DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE38869B1D164B57008C88F2 /* Main.storyboard */; };
 		DE38869F1D164B57008C88F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE38869E1D164B57008C88F2 /* Assets.xcassets */; };
 		DE3886A21D164B57008C88F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3886A01D164B57008C88F2 /* LaunchScreen.storyboard */; };
+		DEBD70331D1691EC005AC7E8 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = DEBD70321D1691EC005AC7E8 /* test.gif */; };
 		FC01D23F2A81E7DE928933EC /* Pods_EasyDropDownMenuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C6AFC8A9B8A16CAC48038 /* Pods_EasyDropDownMenuTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		DE38869E1D164B57008C88F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3886A11D164B57008C88F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3886A31D164B57008C88F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBD70321D1691EC005AC7E8 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		FB6C6AFC8A9B8A16CAC48038 /* Pods_EasyDropDownMenuTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyDropDownMenuTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE24E1E3ADFA9BB935DC4CFC /* Pods-EasyDropDownMenuTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDropDownMenuTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 		DE3886961D164B57008C88F2 /* EasyDropDownMenuTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEBD70321D1691EC005AC7E8 /* test.gif */,
 				DE08560F1D16725C00F3ADC2 /* TestImgs.bundle */,
 				DE3886971D164B57008C88F2 /* AppDelegate.swift */,
 				DE3886991D164B57008C88F2 /* ViewController.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				DE3886A21D164B57008C88F2 /* LaunchScreen.storyboard in Resources */,
 				DE38869F1D164B57008C88F2 /* Assets.xcassets in Resources */,
+				DEBD70331D1691EC005AC7E8 /* test.gif in Resources */,
 				DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */,
 				DE0856101D16725C00F3ADC2 /* TestImgs.bundle in Resources */,
 			);
