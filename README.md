@@ -19,7 +19,7 @@ Add the following to your Podfile:
 	
 
 ### ScreenShot
-![image](https://github.com/stubbornnessness/EasyDropDownMenu/EasyDropDownMenuTest/EasyDropDownMenuTest/test.gif)
+![image](https://github.com/stubbornnessness/EasyDropDownMenu/blob/master/EasyDropDownMenuTest/EasyDropDownMenuTest/test.gif)
 
 ## Version
 **V0.0.1** ---- 2016-6-19
@@ -28,9 +28,9 @@ Add the following to your Podfile:
 	
 ## Example
 	import UIKit
-import EasyDropDownMenu
+	import EasyDropDownMenu
 
-class ViewController: UIViewController, YXJDropDownMenuDelegate, YXJDropDownMenuDataSource {
+	class ViewController: UIViewController, YXJDropDownMenuDelegate, YXJDropDownMenuDataSource {
 
     lazy var classifys = ["美食", "今日新单", "电影", "酒店"]
     lazy var cates = ["自助餐", "快餐", "火锅", "日韩料理", "西餐", "烧烤小吃"]
