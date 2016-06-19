@@ -28,6 +28,9 @@ class ViewController: UIViewController, YXJDropDownMenuDelegate, YXJDropDownMenu
         // 添加下拉菜单
         self.menu.delegate = self
         self.menu.dataSource = self
+
+        self.menu.textColor = UIColor.blackColor()
+        self.menu.textSelectedColor = UIColor.init(red: 69.0 / 255.0, green: 198 / 255.0, blue: 190 / 255.0, alpha: 1)
         self.view.addSubview(menu)
 
         // 创建menu 第一次显示 不会调用点击代理，可以用这个手动调用
@@ -68,15 +71,15 @@ class ViewController: UIViewController, YXJDropDownMenuDelegate, YXJDropDownMenu
     }
 
     // MARK: new datasource
-    func menu(menu: YXJDropDownMenu!, imageNameForRowAtIndexPath indexPath: YXJIndexPath!) -> String! {
+    func menu(menu: YXJDropDownMenu!, imageNameForRowAtIndexPath indexPath: YXJIndexPath!) -> UIImage! {
         if (indexPath.column == 0 || indexPath.column == 1) {
-            return "ic_filter_category_\(indexPath.row)"
+            return UIImage(named: "TestImgs.bundle/ic_filter_category_\(indexPath.row)")
         }
         return nil
     }
-    func menu(menu: YXJDropDownMenu!, imageNameForItemsInRowAtIndexPath indexPath: YXJIndexPath!) -> String! {
-        if (indexPath.column == 0 && indexPath.item >= 0) {
-            return "ic_filter_category_\(indexPath.item)"
+    func menu(menu: YXJDropDownMenu!, imageNameForItemsInRowAtIndexPath indexPath: YXJIndexPath!) -> UIImage! {
+        if (indexPath.column == 0 || indexPath.column == 1) {
+            return UIImage(named: "TestImgs.bundle/ic_filter_category_\(indexPath.item)")
         }
         return nil
     }
@@ -84,12 +87,12 @@ class ViewController: UIViewController, YXJDropDownMenuDelegate, YXJDropDownMenu
     // MARK: new datasource
     func menu(menu: YXJDropDownMenu!, detailTextForRowAtIndexPath indexPath: YXJIndexPath!) -> String! {
         if (indexPath.column < 2) {
-            return "x"
+            return "11"
         }
         return nil
     }
     func menu(menu: YXJDropDownMenu!, detailTextForItemsInRowAtIndexPath indexPath: YXJIndexPath!) -> String! {
-        return "y"
+        return "22"
     }
     func menu(menu: YXJDropDownMenu!, numberOfItemsInRow row: Int, column: Int) -> Int {
         if (column == 0) {

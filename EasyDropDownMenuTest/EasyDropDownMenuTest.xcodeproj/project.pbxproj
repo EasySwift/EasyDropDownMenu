@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0856101D16725C00F3ADC2 /* TestImgs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE08560F1D16725C00F3ADC2 /* TestImgs.bundle */; };
 		DE3886981D164B57008C88F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3886971D164B57008C88F2 /* AppDelegate.swift */; };
 		DE38869A1D164B57008C88F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3886991D164B57008C88F2 /* ViewController.swift */; };
 		DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE38869B1D164B57008C88F2 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		70DDBC89494B60DBE21FB9D7 /* Pods-EasyDropDownMenuTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDropDownMenuTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest.release.xcconfig"; sourceTree = "<group>"; };
+		DE08560F1D16725C00F3ADC2 /* TestImgs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestImgs.bundle; sourceTree = "<group>"; };
 		DE3886941D164B57008C88F2 /* EasyDropDownMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDropDownMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3886971D164B57008C88F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE3886991D164B57008C88F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		DE3886961D164B57008C88F2 /* EasyDropDownMenuTest */ = {
 			isa = PBXGroup;
 			children = (
+				DE08560F1D16725C00F3ADC2 /* TestImgs.bundle */,
 				DE3886971D164B57008C88F2 /* AppDelegate.swift */,
 				DE3886991D164B57008C88F2 /* ViewController.swift */,
 				DE38869B1D164B57008C88F2 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 				DE3886A21D164B57008C88F2 /* LaunchScreen.storyboard in Resources */,
 				DE38869F1D164B57008C88F2 /* Assets.xcassets in Resources */,
 				DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */,
+				DE0856101D16725C00F3ADC2 /* TestImgs.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
