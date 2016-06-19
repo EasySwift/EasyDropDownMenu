@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE3886981D164B57008C88F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3886971D164B57008C88F2 /* AppDelegate.swift */; };
+		DE38869A1D164B57008C88F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3886991D164B57008C88F2 /* ViewController.swift */; };
+		DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE38869B1D164B57008C88F2 /* Main.storyboard */; };
+		DE38869F1D164B57008C88F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE38869E1D164B57008C88F2 /* Assets.xcassets */; };
+		DE3886A21D164B57008C88F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3886A01D164B57008C88F2 /* LaunchScreen.storyboard */; };
+		FC01D23F2A81E7DE928933EC /* Pods_EasyDropDownMenuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C6AFC8A9B8A16CAC48038 /* Pods_EasyDropDownMenuTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70DDBC89494B60DBE21FB9D7 /* Pods-EasyDropDownMenuTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDropDownMenuTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest.release.xcconfig"; sourceTree = "<group>"; };
+		DE3886941D164B57008C88F2 /* EasyDropDownMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDropDownMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3886971D164B57008C88F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE3886991D164B57008C88F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE38869C1D164B57008C88F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE38869E1D164B57008C88F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE3886A11D164B57008C88F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE3886A31D164B57008C88F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6C6AFC8A9B8A16CAC48038 /* Pods_EasyDropDownMenuTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyDropDownMenuTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE24E1E3ADFA9BB935DC4CFC /* Pods-EasyDropDownMenuTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDropDownMenuTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE3886911D164B57008C88F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01D23F2A81E7DE928933EC /* Pods_EasyDropDownMenuTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85DFB30979D8167A522E5CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C6AFC8A9B8A16CAC48038 /* Pods_EasyDropDownMenuTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C156B9A98AD49A84D5BDBF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE24E1E3ADFA9BB935DC4CFC /* Pods-EasyDropDownMenuTest.debug.xcconfig */,
+				70DDBC89494B60DBE21FB9D7 /* Pods-EasyDropDownMenuTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE38868B1D164B57008C88F2 = {
+			isa = PBXGroup;
+			children = (
+				DE3886961D164B57008C88F2 /* EasyDropDownMenuTest */,
+				DE3886951D164B57008C88F2 /* Products */,
+				C156B9A98AD49A84D5BDBF45 /* Pods */,
+				85DFB30979D8167A522E5CDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE3886951D164B57008C88F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE3886941D164B57008C88F2 /* EasyDropDownMenuTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE3886961D164B57008C88F2 /* EasyDropDownMenuTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE3886971D164B57008C88F2 /* AppDelegate.swift */,
+				DE3886991D164B57008C88F2 /* ViewController.swift */,
+				DE38869B1D164B57008C88F2 /* Main.storyboard */,
+				DE38869E1D164B57008C88F2 /* Assets.xcassets */,
+				DE3886A01D164B57008C88F2 /* LaunchScreen.storyboard */,
+				DE3886A31D164B57008C88F2 /* Info.plist */,
+			);
+			path = EasyDropDownMenuTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE3886931D164B57008C88F2 /* EasyDropDownMenuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3886A61D164B57008C88F2 /* Build configuration list for PBXNativeTarget "EasyDropDownMenuTest" */;
+			buildPhases = (
+				40AB493F9DF8557AD481B312 /* [CP] Check Pods Manifest.lock */,
+				DE3886901D164B57008C88F2 /* Sources */,
+				DE3886911D164B57008C88F2 /* Frameworks */,
+				DE3886921D164B57008C88F2 /* Resources */,
+				15B2F921774A534161592340 /* [CP] Embed Pods Frameworks */,
+				77F78F271F66A8ADBB2C3DAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyDropDownMenuTest;
+			productName = EasyDropDownMenuTest;
+			productReference = DE3886941D164B57008C88F2 /* EasyDropDownMenuTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE38868C1D164B57008C88F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "袁晓钧";
+				TargetAttributes = {
+					DE3886931D164B57008C88F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE38868F1D164B57008C88F2 /* Build configuration list for PBXProject "EasyDropDownMenuTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE38868B1D164B57008C88F2;
+			productRefGroup = DE3886951D164B57008C88F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE3886931D164B57008C88F2 /* EasyDropDownMenuTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE3886921D164B57008C88F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3886A21D164B57008C88F2 /* LaunchScreen.storyboard in Resources */,
+				DE38869F1D164B57008C88F2 /* Assets.xcassets in Resources */,
+				DE38869D1D164B57008C88F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B2F921774A534161592340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40AB493F9DF8557AD481B312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77F78F271F66A8ADBB2C3DAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyDropDownMenuTest/Pods-EasyDropDownMenuTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE3886901D164B57008C88F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE38869A1D164B57008C88F2 /* ViewController.swift in Sources */,
+				DE3886981D164B57008C88F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE38869B1D164B57008C88F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE38869C1D164B57008C88F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE3886A01D164B57008C88F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3886A11D164B57008C88F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE3886A41D164B57008C88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE3886A51D164B57008C88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE3886A71D164B57008C88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE24E1E3ADFA9BB935DC4CFC /* Pods-EasyDropDownMenuTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyDropDownMenuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.EasyDropDownMenuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE3886A81D164B57008C88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DDBC89494B60DBE21FB9D7 /* Pods-EasyDropDownMenuTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyDropDownMenuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.EasyDropDownMenuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE38868F1D164B57008C88F2 /* Build configuration list for PBXProject "EasyDropDownMenuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3886A41D164B57008C88F2 /* Debug */,
+				DE3886A51D164B57008C88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3886A61D164B57008C88F2 /* Build configuration list for PBXNativeTarget "EasyDropDownMenuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3886A71D164B57008C88F2 /* Debug */,
+				DE3886A81D164B57008C88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE38868C1D164B57008C88F2 /* Project object */;
+}

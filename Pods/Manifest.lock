@@ -1,0 +1,16 @@
+PODS:
+  - EasyDropDownMenu (0.0.1)
+
+DEPENDENCIES:
+  - EasyDropDownMenu (from `../`)
+
+EXTERNAL SOURCES:
+  EasyDropDownMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyDropDownMenu: 4a7f2047ec83359a1f28688047354e7a27a82a98
+
+PODFILE CHECKSUM: da46901f9078e6b2d4b7b9ccd0e63a819928f64e
+
+COCOAPODS: 1.0.1
