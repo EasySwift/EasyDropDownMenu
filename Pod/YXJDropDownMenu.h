@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#pragma mark - indexPath
 @interface YXJIndexPath : NSObject
 
 @property (nonatomic, assign) NSInteger column;
@@ -23,7 +24,15 @@
 
 @end
 
-@interface YXJBackgroundCellView : UIView
+#pragma mark - YXJCellData
+@interface YXJCellData:NSObject
+
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *detailText;
+@property (nonatomic, strong) UIImage *defaultImage;
+@property (nonatomic, strong) UIImage *selectImage;
+
+- (instancetype)initWithTitle:(NSString *)title detailText:(NSString *)detailText defaultImage:(UIImage *)defaultImage selectImage:(UIImage *)selectImage;
 
 @end
 
@@ -36,30 +45,18 @@
 /** 返回 menu 第column列有多少行 */
 - (NSInteger)menu:(YXJDropDownMenu *)menu numberOfRowsInColumn:(NSInteger)column;
 
-/** 返回 menu 第column列 每行title */
-- (NSString *)menu:(YXJDropDownMenu *)menu titleForRowAtIndexPath:(YXJIndexPath *)indexPath;
+/** 返回 menu 第column列 每行data */
+- (YXJCellData *)menu:(YXJDropDownMenu *)menu configRowAtIndexPath:(YXJIndexPath *)indexPath;
 
 @optional
 /** 返回 menu 有多少列 ，默认1列 */
 - (NSInteger)numberOfColumnsInMenu:(YXJDropDownMenu *)menu;
 
-/** 返回 menu 第column列 每行image */
-- (UIImage *)menu:(YXJDropDownMenu *)menu imageNameForRowAtIndexPath:(YXJIndexPath *)indexPath;
-
-/** detailText ,right text */
-- (NSString *)menu:(YXJDropDownMenu *)menu detailTextForRowAtIndexPath:(YXJIndexPath *)indexPath;
-
 /** 当有column列 row行 返回有多少个item ，如果>0，说明有二级列表 ，=0 没有二级列表,如果都没有可以不实现该协议 */
 - (NSInteger)menu:(YXJDropDownMenu *)menu numberOfItemsInRow:(NSInteger)row column:(NSInteger)column;
 
 /** 当有column列 row行 item项 title , 如果都没有可以不实现该协议 */
-- (NSString *)menu:(YXJDropDownMenu *)menu titleForItemsInRowAtIndexPath:(YXJIndexPath *)indexPath;
-
-/** 当有column列 row行 item项 image */
-- (UIImage *)menu:(YXJDropDownMenu *)menu imageNameForItemsInRowAtIndexPath:(YXJIndexPath *)indexPath;
-
-/** detailText ,right text */
-- (NSString *)menu:(YXJDropDownMenu *)menu detailTextForItemsInRowAtIndexPath:(YXJIndexPath *)indexPath;
+- (YXJCellData *)menu:(YXJDropDownMenu *)menu configItemsInRowAtIndexPath:(YXJIndexPath *)indexPath;
 
 @end
 
@@ -93,7 +90,7 @@
 @property (nonatomic, assign) BOOL isClickHaveItemValid;
 
 @property (nonatomic, getter=isRemainMenuTitle) BOOL remainMenuTitle; // 切换条件时是否更改menu title
-@property (nonatomic, strong) NSMutableArray  *currentSelectRowArray; // 恢复默认选项用
+@property (nonatomic, strong) NSMutableArray  *selectArray; // 记录每个column选中的raw和item
 
 /**
  *  默认宽度为屏幕宽度
@@ -103,8 +100,8 @@
  */
 - (instancetype)initWithOrigin:(CGPoint)origin andHeight:(CGFloat)height;
 
-// 获取title
-- (NSString *)titleForRowAtIndexPath:(YXJIndexPath *)indexPath;
+// 获取data
+- (YXJCellData *)dataForRowAtIndexPath:(YXJIndexPath *)indexPath;
 
 // 重新加载数据
 - (void)reloadData;
