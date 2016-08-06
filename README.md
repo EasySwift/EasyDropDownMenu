@@ -5,6 +5,9 @@
 为了更好的完善此框架，希望更多对此框架有兴趣的朋友一起加入进来打造最好用最全面扩展最好的swift框架。
 EasySwift官方QQ群：<mark>**542916901**</mark>
 
+##Mark
+先更新Github上的项目，所以最新的项目一定在[Github](https://github.com/stubbornnessness)上。
+
 ## Features
 * 最简单，最快速的操作方式
 
@@ -19,7 +22,7 @@ Add the following to your Podfile:
 	
 
 ### ScreenShot
-![image](https://github.com/stubbornnessness/EasyDropDownMenu/blob/master/EasyDropDownMenuTest/EasyDropDownMenuTest/test.gif)
+![image](http://120.27.93.73/files/myPublicProject/EasyDorpDownMenu1.gif)
 
 ## Version
 **V1.0.0** ---- 2016-6-21
