@@ -129,6 +129,7 @@
 				TargetAttributes = {
 					DE3886931D164B57008C88F2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9SNWDNRC89;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -194,7 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		77F78F271F66A8ADBB2C3DAB /* [CP] Copy Pods Resources */ = {
@@ -339,6 +340,7 @@
 			baseConfigurationReference = FE24E1E3ADFA9BB935DC4CFC /* Pods-EasyDropDownMenuTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SNWDNRC89;
 				INFOPLIST_FILE = EasyDropDownMenuTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -353,6 +355,7 @@
 			baseConfigurationReference = 70DDBC89494B60DBE21FB9D7 /* Pods-EasyDropDownMenuTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SNWDNRC89;
 				INFOPLIST_FILE = EasyDropDownMenuTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

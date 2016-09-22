@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/yxj'
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = "10.12"
+
   s.requires_arc = true
   s.module_name = "EasyDropDownMenu"
 
