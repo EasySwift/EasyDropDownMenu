@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EasyDropDownMenu"
-  s.version          = "1.0.0"
+  s.version          = "1.1"
   s.summary          = "类似美团，糯米，大众点评的筛选排序菜单"
   s.description      = <<-DESC
                       类似美团，糯米，大众点评的筛选排序菜单，支持文字以及图片选择状态的记录

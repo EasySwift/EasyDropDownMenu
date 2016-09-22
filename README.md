@@ -25,6 +25,11 @@ Add the following to your Podfile:
 ![image](http://120.27.93.73/files/myPublicProject/EasyDorpDownMenu1.gif)
 
 ## Version
+**V1.1** ---- 2016-9-22
+
+* 针对ios10做调整
+
+
 **V1.0.0** ---- 2016-6-21
 
 * 重大更新，最大程度简化dataSource
