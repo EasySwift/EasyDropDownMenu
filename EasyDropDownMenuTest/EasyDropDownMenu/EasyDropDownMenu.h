@@ -13,7 +13,7 @@
 FOUNDATION_EXPORT double EasyDropDownMenuVersionNumber;
 
 //! Project version string for EasyDropDownMenu.
-FOUNDATION_EXPORT const unsigned char EasyDropDownMenuVersionString[2.0];
+FOUNDATION_EXPORT const unsigned char EasyDropDownMenuVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <EasyDropDownMenu/PublicHeader.h>
 

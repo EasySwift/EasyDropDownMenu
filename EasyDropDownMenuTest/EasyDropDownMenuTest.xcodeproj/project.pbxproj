@@ -570,6 +570,7 @@
 				DECB96F91D9B83B300605295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
